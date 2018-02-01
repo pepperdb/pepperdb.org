@@ -39,6 +39,7 @@ Primary use:	BuyCoin Template
 ----------------------------------------*/
 /*==============================
 	Common styles
+	#2c90e4 -> #238EB6
 ==============================*/
 html,
 body {
@@ -2498,7 +2499,7 @@ ul {
 	width: 100%;
 	height: 100%;
 	-webkit-border-radius: 50%;
-	border-radius: 50%;
+	border-radius: 15%;
 	background-color: #fff;
 	opacity: 0.65;
 	position: absolute;
