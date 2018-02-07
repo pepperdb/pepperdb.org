@@ -57,9 +57,8 @@
 
 					<!-- navigation -->
 					<ul class="nav header__nav">
-						<li>
-							<a data-scroll href="#about">关于我们</a>
-						</li>
+						<li><a data-scroll href="#about">关于蝉聊</a></li>
+						<li><a data-scroll href="#ico">代币发行</a></li>
 						<li>
 							<a data-scroll href="#offers">下载</a>
 						</li>
@@ -216,19 +215,43 @@
 	</section>
 	<!-- end get started -->
 
-	<!-- video -->
-	<section class="section video" data-parallax="scroll" data-image-src="img/section-bg/section-bg1.jpg">
+	<!--&lt;!&ndash; video &ndash;&gt;-->
+	<!--<section class="section video" data-parallax="scroll" data-image-src="img/section-bg/section-bg1.jpg">-->
+		<!--<div class="container">-->
+			<!--<div class="row">-->
+				<!--<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">-->
+					<!--<a href="https://vimeo.com/45830194" class="video__btn"><i class="fa fa-play-circle"></i></a>-->
+					<!--<h4 class="video__title">视频介绍</h4>-->
+					<!--<p class="video__text"></p>-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</section>-->
+	<!--&lt;!&ndash; end video &ndash;&gt;-->
+
+	<!-- ico -->
+	<section id="ico" class="about about--wave section--gradient">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
-					<a href="https://vimeo.com/45830194" class="video__btn"><i class="fa fa-play-circle"></i></a>
-					<h4 class="video__title">视频介绍</h4>
-					<p class="video__text"></p>
+				<!-- section title -->
+				<div class="col-xs-12 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.2s">
+					<h2 class="section__title section__title--white section__title--margin">代币发行</h2>
+				</div>
+				<!-- end section title -->
+
+				<div class="col-xs-12 animate" data-animate="fadeIn" data-duration="1.0s" data-delay="0.5s">
+					<!-- about text -->
+					<div class="about__text">
+						<p>1. CCC 代币共计发行 2 亿枚.</p>
+						<p>2. 10% 留作平台奖励使用, 10% 留作技术团队激励, 20% 留作私募融资，剩余 60% 留作基金会管理使用</p>
+						<p>3. 留作平台奖励用的代币，初期将以积分的形式发放，用户提现时进行 1:1 兑换</p>
+					</div>
+					<!-- end about text -->
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- end video -->
+	<!-- end ico -->
 
 	<!-- offers -->
 	<section id="offers" class="section">
@@ -246,10 +269,10 @@
 				<div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-12 col-lg-offset-0">
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane fade in active" id="tab1">
-							<div class="about__text h4" style="text-align: center">即将上线...</div>
+							<div class="about__text h4" style="text-align: center">2018年第一季度 即将上线...</div>
 						</div>
 						<div role="tabpanel" class="tab-pane fade" id="tab2">
-							<div class="about__text h4" style="text-align: center">即将上线...</div>
+							<div class="about__text h4" style="text-align: center">2018年第一季度 即将上线...</div>
 						</div>
 					</div>
 				</div>
@@ -376,26 +399,42 @@
 			<div class="item">
 				<img class="team__img" src="img/team/member.png" alt="">
 				<div class="team__meta">
-					<p>Jack</p>
-					<span>CEO</span>
+					<p>韩 洋 (CEO)</p>
+					<span>连续创业者，巨翔科技、兴黔科技 CEO</span>
 				</div>
 			</div>
 
 			<div class="item">
-				<img class="team__img" src="img/team/member.png" alt="">
+				<img class="team__img" src="img/team/royguo.png" alt="">
 				<div class="team__meta">
-					<p>Jonathan</p>
-					<span>Founder</span>
+					<p>郭 宽 (技术顾问)</p>
+					<span>技术专家, 前百度 & Google 工程师</span>
 				</div>
 			</div>
 
 			<div class="item">
-				<img class="team__img" src="img/team/member.png" alt="">
+				<img class="team__img" src="img/team/jianqiang.png" alt="">
 				<div class="team__meta">
-					<p>John</p>
-					<span>Technologist</span>
+					<p>王建强</p>
+					<span>产品经理</span>
 				</div>
 			</div>
+
+			<div class="item">
+				<img class="team__img" src="img/team/haoxuqin.jpg" alt="">
+				<div class="team__meta">
+					<p>郝旭琴</p>
+					<span>UI设计师</span>
+				</div>
+			</div>
+
+			<!--<div class="item">-->
+				<!--<img class="team__img" src="img/team/fengxuejiao.jpg" alt="">-->
+				<!--<div class="team__meta">-->
+					<!--<p>冯雪娇</p>-->
+					<!--<span>产品经理</span>-->
+				<!--</div>-->
+			<!--</div>-->
 
 			<!--<div class="item">-->
 				<!--<img class="team__img" src="img/team/member.png" alt="">-->
@@ -469,36 +508,36 @@
 	<!-- end get in touch -->
 
 	<!-- partners -->
-	<div class="partners section--grey">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12">
-					<!-- partners slider -->
-					<div class="owl-carousel partners__slider">
-						<div class="item">
-							<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>
-						</div>
-						<div class="item">
-							<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>
-						</div>
-						<div class="item">
-							<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>
-						</div>
-						<div class="item">
-							<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>
-						</div>
-						<div class="item">
-							<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>
-						</div>
-						<div class="item">
-							<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>
-						</div>
-					</div>
-					<!-- end partners slider -->
-				</div>
-			</div>
-		</div>
-	</div>
+	<!--<div class="partners section&#45;&#45;grey">-->
+		<!--<div class="container">-->
+			<!--<div class="row">-->
+				<!--<div class="col-xs-12">-->
+					<!--&lt;!&ndash; partners slider &ndash;&gt;-->
+					<!--<div class="owl-carousel partners__slider">-->
+						<!--<div class="item">-->
+							<!--<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>-->
+						<!--</div>-->
+						<!--<div class="item">-->
+							<!--<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>-->
+						<!--</div>-->
+						<!--<div class="item">-->
+							<!--<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>-->
+						<!--</div>-->
+						<!--<div class="item">-->
+							<!--<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>-->
+						<!--</div>-->
+						<!--<div class="item">-->
+							<!--<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>-->
+						<!--</div>-->
+						<!--<div class="item">-->
+							<!--<a href="javascript:void(0)"><img src="img/partners/partner.png" alt=""></a>-->
+						<!--</div>-->
+					<!--</div>-->
+					<!--&lt;!&ndash; end partners slider &ndash;&gt;-->
+				<!--</div>-->
+			<!--</div>-->
+		<!--</div>-->
+	<!--</div>-->
 	<!-- end partners -->
 
 	<!-- footer -->
